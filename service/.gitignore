@@ -1,3 +1,6 @@
+.key.json
+.runtimeconfig.json
+
 # Logs
 logs
 *.log

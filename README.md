@@ -16,16 +16,16 @@ Proof of concept: Part of the idea of this project is to create applications wit
 
 Goal: install the dependencies of client, and service.
 
-`. ./scripts/install.sh`
+`. ./scripts/install.both.sh`
 
 ## Build
 
 Goal: build the client app and copy the result in the firebase hosting service
 
-`. ./scripts/build.sh`
+`. ./scripts/build.client.sh`
 
 ## Build & Deploy in firebase hosting
 
 Goal: build and deploy the client build in firebase hosting
 
-`. ./scripts/build_and_deploy.sh`
+`. ./scripts/build-and-deploy.client.sh`
